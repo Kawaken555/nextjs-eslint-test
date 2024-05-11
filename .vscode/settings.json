@@ -1,0 +1,12 @@
+{
+  // "eslint.useESLintClass": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // フォーマッターをPrettierにする
+  "editor.formatOnSave": true, // ファイル保存時にフォーマットを実行
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}
